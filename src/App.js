@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       </header>
       <header>High school</header>
       <p>app</p>
-      <footer>contact us</footer>
+
+      <p>contact us</p>
+      <Footer />
     </div>
   );
 }
